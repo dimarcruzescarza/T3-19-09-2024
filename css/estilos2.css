@@ -1,0 +1,86 @@
+.contenedor
+{
+    background-color: rgb(5, 5, 5);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas: "header    header    header"
+                         "nav       nav          nav"
+                         "section section2      ads"
+                         "foot     foot      foot"
+                         "rrss      rrss2       rrss3"
+                          ;
+
+}
+.contenedor>div
+{
+    background-color: rgb(8, 216, 19);
+}
+
+.contenedor .header
+{
+    background-color: yellow;
+    grid-column: header;
+}
+
+.contenedor .nav
+{
+    background-color: orangered;
+    grid-column: nav;
+}
+
+.contenedor .section
+{
+    background-color: greenyellow;
+    grid-column: section;
+}
+
+.contenedor .section2
+{
+    background-color: greenyellow;
+    grid-column: section2;
+}
+
+.contenedor .ads
+{
+    background-color: red;
+    grid-column: ads;
+}
+
+.contenedor .son-ads
+{
+    background-color: rgb(241, 81, 228);
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+    height: 100px; width: 230px;
+    justify-content: center;
+}
+
+.contenedor .foot
+{
+    background-color: blueviolet;
+    grid-column: foot;
+}
+
+.contenedor .rrss
+{
+    background-color: aqua;
+    grid-column: rrss;
+}
+
+.contenedor .rrss2
+{
+    background-color: aqua;
+    grid-column: rrss2;
+}
+
+.contenedor .rrss3
+{
+    background-color: aqua;
+    grid-column: rrss3;
+}
